@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One';
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(0, 0, 31);
+}
+.hi1
+{   font-size: 3.5em;
+    overflow: hidden;
+    color: rgb(0, 255, 0);
+    transition: 0.5s;
+}
+
+.hi1:hover
+{
+    font-size: 3.5em;
+    background-image: url(green.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.hi2
+{   font-size: 3.5em;
+    overflow: hidden;
+    color: rgb(255, 0, 68);
+    transition: 0.5s;
+}
+
+.hi2:hover
+{
+    font-size: 3.5em;
+    background-image: url(magenta.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.hi3
+{   font-size: 3.5em;
+    overflow: hidden;
+    color: rgb(0, 204, 255);
+    transition: 0.5s;
+}
+
+.hi3:hover
+{
+    font-size: 3.5em;
+    background-image: url(blue.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.hi4
+{   font-size: 3.5em;
+    overflow: hidden;
+    color: rgb(255, 251, 0);
+    transition: 2s;
+}
+
+.hi4:hover
+{
+    font-size: 3.5em;
+    background-image: url(yellow.JPG);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.hi5
+{   font-size: 3.5em;
+    overflow: hidden;
+    color: rgb(255, 4, 4);
+    transition: 0.5s;
+}
+
+.hi5:hover
+{
+    font-size: 3.5em;
+    background-image: url(red.JPG);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
